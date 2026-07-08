@@ -36,10 +36,6 @@ Your network                         Vigia Cloud
 | Repository | Visibility | Purpose |
 |------------|------------|---------|
 | [**vigia-exporter**](https://github.com/vigia-io/vigia-exporter) | Public | Offline collection CLI |
-| **vigia-spec** | Private | Product & architecture specification |
-| **vigia-platform** | Private | API, ingest, multi-tenancy, billing |
-| **vigia-console** | Private | Web dashboard |
-| **vigia-scripts** | Private | Versioned SQL metric catalog |
 
 ---
 
@@ -66,7 +62,7 @@ We are transparent where it builds trust (collection code) and commercial where 
 
 ## Links
 
-- **Website:** [getvigia.com](https://getvigia.com) *(coming soon)*
+- **Website:** [getvigia.com](https://vigia.io) *(coming soon)*
 - **Exporter:** [github.com/vigia-io/vigia-exporter](https://github.com/vigia-io/vigia-exporter)
 - **Contact:** legal@getvigia.com
 
