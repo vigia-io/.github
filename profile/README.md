@@ -64,7 +64,7 @@ We are transparent where it builds trust (collection code) and commercial where 
 
 - **Website:** [getvigia.com](https://vigia.io) *(coming soon)*
 - **Exporter:** [github.com/vigia-io/vigia-exporter](https://github.com/vigia-io/vigia-exporter)
-- **Contact:** legal@getvigia.com
+- **Contact:** legal@vigia.io
 
 <p align="center">
   <sub>Built for DBAs, SREs, and platform teams worldwide</sub>
