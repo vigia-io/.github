@@ -62,7 +62,7 @@ We are transparent where it builds trust (collection code) and commercial where 
 
 ## Links
 
-- **Website:** [getvigia.com](https://vigia.io) *(coming soon)*
+- **Website:** [vigia.io](https://vigia.io) *(coming soon)*
 - **Exporter:** [github.com/vigia-io/vigia-exporter](https://github.com/vigia-io/vigia-exporter)
 - **Contact:** legal@vigia.io
 
