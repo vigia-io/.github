@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Vigia exporter
-    url: https://github.com/vigia-io/vigia-exporter
+    url: https://github.com/vigia-io/vigia-io-exporter
     about: Collection CLI (source-available)
   - name: Security
     url: https://github.com/vigia-io/.github/blob/main/SECURITY.md

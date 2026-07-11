@@ -16,10 +16,10 @@ We combine **offline-first collection** (a lightweight exporter inside your netw
 
 ```text
 Your network                         Vigia Cloud
-┌─────────────────┐                 ┌──────────────────┐
-│ vigia-exporter  │  snapshot.json  │ Ingest API       │
-│ (read-only SQL) │ ──────────────► │ History & alerts │
-└────────┬────────┘                 │ Console & billing│
+┌──────────────────┐                ┌──────────────────┐
+│ vigia-io-exporter│  snapshot.json │ Ingest API       │
+│ (read-only SQL)  │ ──────────────►│ History & alerts │
+└────────┬─────────┘                │ Console & billing│
          │                          └──────────────────┘
          ▼
    SQL Server · MySQL · Azure SQL · PostgreSQL · Oracle
@@ -35,7 +35,8 @@ Your network                         Vigia Cloud
 
 | Repository | Visibility | Purpose |
 |------------|------------|---------|
-| [**vigia-exporter**](https://github.com/vigia-io/vigia-exporter) | Public | Offline collection CLI |
+| [**vigia-io-exporter**](https://github.com/vigia-io/vigia-io-exporter) | Public | Offline collection CLI |
+| [**vigia-io-platform**](https://github.com/vigia-io/vigia-io-platform) | Private | SaaS API, alerts, billing |
 
 ---
 
@@ -43,7 +44,7 @@ Your network                         Vigia Cloud
 
 | Component | Model |
 |-----------|--------|
-| **Exporter** | Public **source-available** code for audit — not MIT/Apache. [License](https://github.com/vigia-io/vigia-exporter/blob/main/LICENSE). Production use requires a Vigia account. |
+| **Exporter** | Public **source-available** code for audit — not MIT/Apache. [License](https://github.com/vigia-io/vigia-io-exporter/blob/main/LICENSE). Production use requires a Vigia account. |
 | **Platform** | Commercial SaaS |
 
 We are transparent where it builds trust (collection code) and commercial where we deliver ongoing value (platform, alerts, history, billing).
@@ -63,7 +64,7 @@ We are transparent where it builds trust (collection code) and commercial where 
 ## Links
 
 - **Website:** [vigia.io](https://vigia.io) *(coming soon)*
-- **Exporter:** [github.com/vigia-io/vigia-exporter](https://github.com/vigia-io/vigia-exporter)
+- **Exporter:** [github.com/vigia-io/vigia-io-exporter](https://github.com/vigia-io/vigia-io-exporter)
 - **Contact:** legal@vigia.io
 
 <p align="center">
